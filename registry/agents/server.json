@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.melonhelp/agents",
+  "title": "Melonhelp Agents",
+  "description": "Configure and audit Melonhelp AI support agents: knowledge, skills, tools, flows and usage.",
+  "repository": {
+    "url": "https://github.com/Melonhelp/mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://melonhelp.com/agents",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agents.melonhelp.com/mcp"
+    }
+  ]
+}

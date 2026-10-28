@@ -79,6 +79,10 @@ Write tools need a workspace admin and a connection that allows writing. Members
 - Admins can turn each server off and revoke connections from the product's settings.
 - Feedback returns text written by end users marked as untrusted, so agents treat it as data, not instructions.
 
+## Official MCP Registry
+
+The four servers are listed in the [MCP Registry](https://registry.modelcontextprotocol.io) under the `com.melonhelp` namespace, verified with the melonhelp.com domain: `com.melonhelp/tickets`, `com.melonhelp/agents`, `com.melonhelp/tasks` and `com.melonhelp/feedback`. Their entries live in [registry/](registry).
+
 ## Related
 
 - [Melonhelp/skills](https://github.com/Melonhelp/skills): agent skills that use these servers

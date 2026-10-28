@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.melonhelp/feedback",
+  "title": "Melonhelp Feedback",
+  "description": "Read and resolve the bugs, ideas and survey answers your users send through Melonhelp Feedback.",
+  "repository": {
+    "url": "https://github.com/Melonhelp/mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://melonhelp.com/feedback",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://feedback.melonhelp.com/mcp"
+    }
+  ]
+}
